@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+.sec1{
+    width: 100%;
+    height: 900px;
+    background-image: url(Screenshot\ 2024-10-22\ 222626.png);
+    background-color: white;
+    position: relative;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    gap: 250px;
+    padding: 20px;
+    margin-left: 120px;
+    font-size: 20px;
+    z-index: 100000;
+}
+
+.con1{
+    width: 120px;
+    height: 45px;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(3, 78, 3);
+    display: flex;
+    border-radius: 30px;
+    color: white;
+    /* font-weight: bold; */
+}
+
+.con2{
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.con3{
+    width: 120px;
+    height: 45px;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.con4{
+    text-align: center;
+    padding: 200px;
+    font-size: 50px;
+}
+
+
+.cloud{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 800px;
+    background-image: url(cloud.png);
+}
+
+.txt1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec2{
+    width: 100%;
+    height: 1800px;
+    background-color: white;
+    position: relative;
+}
+
+.con5{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(255, 221, 157);
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 8px;
+    position: absolute;
+    left: 600px;
+    top: 60px;
+}
+
+.con6{
+text-align: center;
+padding: 130px;
+font-size: 30px;
+}
+
+.con7{
+    text-align: center;
+    margin-top: -100px;
+    font-size: 20px;
+}
+
+.con8{
+    width: 300px;
+    height: 600px;
+    background-image: url(chowdeck-app.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 610px;
+    margin-top: 40px;
+    animation-name: slideleft;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes slideleft{
+    from{transform: translateX(100%);}
+ 
+}
+
+.con9{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+    color: grey;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    background-color: white;
+    width: 400px;
+    height: 60vh;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px grey;
+    padding: 10px;
+    animation-name: slideUp;
+    animation-duration: 5s;
+}
+@keyframes slideUp{
+    from{transform: translateY(100px);}
+}
+
+
+.pin1 {
+    margin-top: 50px;
+    font-size: 25px;
+    padding: 40px;
+}
+
+.pin2 {
+    margin-left: 40px;
+
+}
+
+.pin3 {
+    margin-left: 40px;
+
+}
+
+.pin4{
+    margin-left: 40px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 400px;
+    height: 25vh;
+    margin-left: -10px;
+    margin-top: 29px;
+    justify-items: center;
+}
+
+.sec3{
+    width: 100%;
+    height: 4000px;
+    background-color:  rgb(3, 36, 3);;
+    position: absolute;
+}
+
+.bill{
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(8, 126, 8);
+    margin: 10%;
+    margin-top: -100px;
+    border-radius: 20px;
+    animation-name: background-colorChange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-image: url(pngtree-jollof-rice-a-popular-west-african-dish-on-transparent-background-png-image_13104220.pngs);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+@keyframes background-colorChange{
+    0%{background-color: green;}
+    20%{background-color: rgb(237, 50, 237);}
+    40%{background-color: orange;}
+    60%{background-color: rgb(255, 98, 242);}
+    80%{background-color: mistyrose;}
+}
+
+.bill2{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    left: 25%;
+    top: 8%;
+    background-image: url(ai-generated-chicken-rice-in-bowl-free-png.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: background-imageChange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes background-imageChange{
+    0%{background-image: url(ai-generated-chicken-rice-in-bowl-free-png.webp);}
+    20%{background-image: url(burss.webp);}
+    40%{background-image: url(Drinks-PNG-Background.png);}
+    60%{background-image: url(bread.png);}
+    80%{background-image: url(brown-cardboard-box-isolated-png.webp);}
+}
+
+.chow{
+    font-size: 40px;
+    color: white;
+    margin-left: 140px;
+    margin-top: -105px;
+}
+
+.chow2{
+    color: white;
+    margin-left: 830px;
+    margin-top: -180px;
+    font-size: 25px;
+}
+
+.meal{
+    width: 200px;
+    height: 150px;
+    background-image: url(meal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 330px;
+    margin-top: -100px;
+}
+
+.text{
+    display: flex;
+}
+
+.text1{
+    margin-top: 80px;
+    color: white;
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+    background-attachment: fixed;
+    animation-name: slideRight;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3))
+
+}
+
+@keyframes slideRight{
+    from{transform: translateX(50%);}
+}
+
+.picture{
+    display: flex;
+    gap: 2px;
+    animation-name: slideRight;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideRight{
+    from{transform: translateX(50%);}
+}
+
+.picture1{
+    width: 300px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(accept-order.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.picture2{
+    width: 300px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(pickup.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.picture3{
+    width: 300px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(order-transit.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.picture4{
+    width: 300px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(order-arrived.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 400px) {
+
+    .sec1{
+        width: 100%;
+        height: 900px;
+        background-image: url(Screenshot\ 2024-10-22\ 222626.png);
+        background-color: white;
+        position: relative;
+    }
+    
+    nav{
+        position: fixed;
+        display: flex;
+        gap: 20px;
+        padding: 5px;
+        margin-left: 20px;
+        font-size: 20px;
+        z-index: 100000;
+    }
+    
+    .con1{
+        width: 120px;
+        height: 45px;
+        padding: 10px;
+        justify-content: center;
+        background-color: rgb(3, 78, 3);
+        display: flex;
+        border-radius: 30px;
+        color: white;
+        /* font-weight: bold; */
+    }
+    
+    .con2{
+        display: none;
+    }
+    
+    .con3{
+        width: 120px;
+        height: 45px;
+        padding: 10px;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        border-radius: 30px;
+        box-shadow: 0px 0px 5px grey;
+    }
+
+}
+
+
+
